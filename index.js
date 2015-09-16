@@ -3,6 +3,8 @@
  */
 var rageWords = [
     'fucking',
+    'bullshit',
+    'crap',
     'jesus',
     'christ',
     'holy',
@@ -14,7 +16,7 @@ var rageWords = [
 
 var _addWordsToChai = function (chai, utils, words) {
     words.forEach(function (word) {
-        utils.addChainableMethod(chai.Assertion.prototype, word, function () {});
+        utils.addChainableMethod(chai.Assertion.prototype, word);
         utils.addProperty(chai.Assertion.prototype, word, function () {});
     });
 };
