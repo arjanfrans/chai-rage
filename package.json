@@ -1,6 +1,6 @@
 {
   "name": "chai-rage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tests not working? Express your rage in test code.",
   "main": "index.js",
   "scripts": {
