@@ -11,7 +11,8 @@ var rageWords = [
     'fuck',
     'mother',
     'shit',
-    'godverdomme'
+    'godverdomme',
+    'damn'
 ];
 
 var _addWordsToChai = function (chai, utils, words) {
@@ -39,7 +40,7 @@ var _filterWords = function (words) {
 };
 
 module.exports = function (chai, utils) {
-    // Hacky way to check if module is initialized with params
+    // check if module is initialized with params
     if (typeof chai !== 'string' && !Array.isArray(chai) && typeof utils !== 'undefined') {
         _addWordsToChai(chai, utils, rageWords);
     } else {

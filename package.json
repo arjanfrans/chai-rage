@@ -1,6 +1,6 @@
 {
   "name": "chai-rage",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Tests not working? Express your rage in test code.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,8 @@
   "dependencies": {
   },
   "keywords": [
+    "testing",
+    "not working",
     "chai",
     "chai-rage",
     "bad words",
@@ -35,12 +37,12 @@
     "rage"
   ],
   "devDependencies": {
-    "chai": "^3.0.0",
-    "coveralls": "^2.11.2",
-    "eslint": "^1.3.1",
-    "istanbul": "^0.3.15",
-    "mocha": "^2.2.5",
-    "mocha-lcov-reporter": "0.0.2",
-    "pre-commit": "^1.1.1"
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "1.0.0",
+    "pre-commit": "^1.1.2"
   }
 }
